@@ -7,6 +7,7 @@ This program provides a recursion functions to calculate
 all the ways to cover a wall using specific bricks.
 You can also visualize one of these methods"""
 
+
 import sys, copy, time, turtle, random
 
 
