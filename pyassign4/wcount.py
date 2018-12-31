@@ -18,7 +18,7 @@ def wcount(lines, topn):
     in reverse order, output the topn (word count), each in one line.
     """
 
-    punc = ["!", "?", ",", ".", ";", ":", '"', "(", ")", ]    # The common punctuations
+    punc = ["!", "?", ",", ".", ";", ":", '"', "(", ")"]    # The common punctuations
     list_raw = lines.split()    # Converts text to a list
     list_new = []    # The finally processed list
     for a_word in list_raw:
